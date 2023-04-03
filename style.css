@@ -1,0 +1,264 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/*stylisation du header*/
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(178, 60%, 49%);
+}
+
+.header h1 {
+  font-size: large;
+  color: black;
+  justify-content: flex-start;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.header ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
+
+.header ul li a:focus {
+  text-decoration: underline;
+}
+
+/* Stylisation du footer*/
+.footer p {
+  padding-top: 10%;
+}
+
+/*stylisation de la page d'accueil*/
+
+.imageBackgroundAccueil {
+  background-image: url(./fond_blanc_vert.jpg);
+  background-position: center;
+  border: none;
+}
+
+/* Stylisations des deux premieres div de la page, qui sont aussi ces 2 premieres parties*/
+.div1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vert {
+  color: hsl(178, 60%, 49%);
+}
+
+.div3 {
+  background-color: hsl(178, 60%, 49%);
+}
+/* Stylisation de la 3 eme partie de l'accueil */
+.contenuDiv3 {
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  padding: 5%;
+}
+.contenuDiv3Droite ul {
+  list-style: none;
+}
+
+/* stylisation de la 4eme partie de l'acueil*/
+
+.div4 {
+  background-image: url(./developpement.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contenuDiv4Gauche {
+  padding-top: 10%;
+}
+.contenuDiv4Gauche p {
+  text-align: center;
+}
+
+.contenuDiv4Droite {
+  text-align: right;
+}
+.contenuDiv4Droite p {
+  background-color: white;
+}
+
+.contenuDiv4Droite a {
+  text-decoration: none;
+  background-color: white;
+}
+.contenuDiv4Droite a:hover {
+  color: hsl(178, 60%, 49%);
+}
+
+.boutonAcceuil {
+  margin-top: 10%;
+}
+
+/* Stylisation de la premiere partie de la page presentations*/
+
+.div5 {
+  background-image: url(./fond_blanc_vert.jpg);
+  background-repeat: no-repeat;
+  background-size: center;
+  min-height: 800px;
+  padding-top: 5%;
+}
+
+.paragrapheDiv5Premier {
+  margin-left: 5%;
+  background-color: (white, 0.5);
+
+  border-radius: 2%;
+}
+
+/* Stylisation de la seconde partie de la page présentations*/
+
+.cartesDiv6 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: center;
+}
+.cartesDiv6 {
+  justify-content: space-around;
+}
+
+.carteDiv6_3 {
+  box-shadow: -10px 10px 100px -10px hsl(178, 60%, 49%);
+}
+
+/*Stylisation de la premiere partie de la page services*/
+
+.div7 {
+  background-image: url(./developpement.jpg);
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5%;
+}
+
+.div8 {
+  background-color: hsl(178, 60%, 49%);
+  color: black;
+  min-height: 400px;
+}
+
+.div9 {
+  min-height: 800px;
+}
+.p {
+  margin-top: 2.5%;
+}
+
+.p1 {
+  background-color: white;
+}
+
+.div91 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.div91 p {
+  background-color: white;
+}
+
+/*Stylisation de la page avis*/
+
+.div10 {
+  margin-top: 2.5%;
+  flex-wrap: wrap;
+}
+
+.div11 {
+  display: flex;
+  justify-content: space-between space-around;
+
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.pBleu {
+  color: hsl(178, 60%, 49%);
+  max-width: 25rem;
+  margin-left: 5%;
+}
+
+.pVert {
+  color: hsl(178, 60%, 35%);
+  max-width: 25rem;
+  margin-left: 5%;
+}
+
+.div12 {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 10%;
+}
+.div12p {
+  max-width: 25rem;
+  margin-left: 5%;
+}
+
+/* stylisation de la page de contacts*/
+
+.div13 {
+  max-width: 80%;
+  background-image: url(./ronds_rouge.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+.div13 p {
+  margin-top: 5%;
+}
+
+.div14 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.div14 p {
+  max-width: 25rem;
+  margin-top: 5%;
+}
+
+.form {
+  margin-top: 5%;
+}
